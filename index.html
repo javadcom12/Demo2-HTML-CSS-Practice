@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+ 
+        .header li{
+            list-style-type: none;
+            margin: 5px 3px;
+            font-size: 20px;
+           
+        
+        }
+        .header{
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: nowrap;
+            background-color: white;
+           
+        }
+     
+
+.a::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.img-text{
+text-align: center;
+color: white;
+}
+
+.img-text{
+   
+    color:white;
+   font-size: 35px;
+ 
+   top: 70%;
+   left: 40%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+ justify-content: center;
+}
+.BR{
+    background-color: black;
+    opacity: 0.7;
+    padding: 10px;
+
+}
+.sss{
+    width: 100%;
+   padding-top: 20%;
+    display: block;
+}
+.ws{
+    position: absolute;
+    width:100%;
+     height:auto ;
+     top: 8%;
+     left: 0;
+     z-index:-1;
+   
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.aa{
+    position: relative;
+    text-align: center;
+    padding-top: 30%;
+  
+}
+.pro{
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.flex-container div{
+    width: 25%;
+    padding: 0.5%;
+}
+.span-pic{
+    color: white;
+    background-color: black;
+    padding: 8px;
+    font-size: 16px;
+    position: absolute;
+    margin-left: -23.7%;
+ 
+}
+.flex-container img{
+ position: relative;
+z-index: -1;
+}
+
+
+@media screen and (max-width:765px )
+ {
+    .flex-container div{
+        width: 50%;
+        height: auto;
+    }
+    .span-pic{
+        margin-left: -48%;
+    }
+
+
+}
+@media screen and (max-width:600px )
+ {
+    .flex-container div{
+        width: 100%;
+        height: auto;
+    }
+    .span-pic{
+        margin-left: -96%;
+    }
+.header{
+    visibility: hidden;
+}
+}
+
+a{
+    color: black;
+    padding: 5px 15px;
+}
+.menu{
+    text-decoration: none;
+   
+}
+a:hover{
+    background-color:lightslategrey;
+}
+.left{
+    left: 10px;
+   
+  
+}
+.left{
+    float: left;
+    list-style-type: none;
+    margin: 5px 3px;
+            font-size: 20px;
+          
+}
+.fix{
+    position: fixed;
+   
+}
+.cont{
+    width: 100%;
+    font-size: 17px;
+    border: 0;
+    padding: 10px;
+}
+.cont:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.gr{
+    color: gray;
+}
+.fasele{
+   height:25px;
+}
+.inp{
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.sub{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: 0;
+    margin: 15px 0;
+}
+.sub:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+.footer
+{
+    background-color: black;
+    height:100px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 17px;
+}
+.footer a{
+    color: white;
+margin-left: 0px;
+padding-left: 2px;
+}
+.footer a:hover{
+    color:green;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+.img-gray{
+    filter: grayscale(80%);
+}
+
+
+    </style>
+</head>
+<body>
+   
+  
+        <li class="left"><a href="#" class="menu"><b>BR</b>Architects</a></li>
+        <div class="header">
+<li class="a"><a href="#" class="menu la">contact</a> </li>
+<li class="a" ><a href="#" class="menu">About</a></li>
+<li class="a"><a href="#" class="menu">Projects</a></li>
+
+    </div>
+
+    <div class="ws">
+       
+        <img src="pic/architect.jpg" alt="architect" >
+        
+    </div>
+    <div class="aa">
+        <p class="img-text"><span class="BR">BR</span>Architects</p>
+    </div>
+   <div class="sss">
+
+   </div>
+  <div class="pro">
+    Projects
+  </div>
+  <hr>
+  <div class="flex-container">
+
+    <div><img src="pic/1.jpg" alt="1"><span class="span-pic">Summer House</span></div>
+    <div><img src="pic/2.jpg" alt="2"><span class="span-pic">Brick House</span></div>
+    <div><img src="pic/3.jpg" alt="3"><span class="span-pic">
+        Renovated</span></div>
+    <div><img src="pic/4.jpg" alt="4"><span class="span-pic">Barn House</span></div>
+    <div><img src="pic/5.jpg" alt="5"><span class="span-pic">Summer House</span></div>
+    <div><img src="pic/6.jpg" alt="6"><span class="span-pic">Brick House</span></div>
+    <div><img src="pic/7.jpg" alt="7"><span class="span-pic">Renovated</span></div>
+    <div><img src="pic/8.jpg" alt="8"><span class="span-pic">
+        Barn House</span></div>
+
+        <div class="sss">
+
+        </div>
+
+  </div>
+  <div class="pro">
+    About
+  </div>
+  <hr>
+  <p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+<div class="flex-container">
+<div>
+    <img src="pic/team2.jpg" alt="team2" class="img-gray">
+    <h3>John Doe</h3>
+    <p class="gr">John Doe</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <button class="cont">contact</button>
+</div>
+
+<div>
+    <img src="pic/team1.jpg" alt="team1" class="img-gray">
+    <h3>Jane Doe</h3>
+    <p class="gr">Architect</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <button class="cont">contact</button>
+</div>
+
+<div>
+    <img src="pic/team3.jpg" alt="team3" class="img-gray">
+    <h3>Mike Ross</h3>
+    <p class="gr">Architect</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <button class="cont">contact</button>
+</div>
+
+<div>
+    <img src="pic/team4.jpg" alt="team4" class="img-gray">
+    <h3>Dan Star</h3>
+    <p class="gr">Architect</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <button class="cont">contact</button>
+</div>
+</div>
+<div class="fasele">
+
+</div>
+<div class="pro">
+    Contact
+  </div>
+  <hr>
+  <p>Lets get in touch and talk about your next project.</p>
+<form action="dd.php" method="get">
+
+<input type="text" placeholder="Name"  class="inp">
+<input type="email" placeholder="Email" class="inp">
+<input type="text" placeholder="Subject" class="inp">
+<input type="text" placeholder="Comment" class="inp">
+<input type="submit" value="SEND NESSAGE" class="sub">
+</form>
+<img src="pic/map.jpg" alt="">
+<div class="footer">
+    Powered by <a href="">w3.css</a> 
+</div>
+  </body>
+
+</html>
